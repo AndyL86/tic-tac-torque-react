@@ -34,7 +34,6 @@ function deriveGameBoard(gameTurns) {
         const { square, player } = turn;
         const { row, col } = square;
 
-
         gameBoard[row][col] = player;
     }
   return gameBoard;
